@@ -174,6 +174,5 @@ grep -R "<PRIVATE_LOCAL_PATH>\|patient-level\|hospital_name\|Cluster_Labels" .
 
 The term `Cluster_Labels` appears in source code as a generic column name. Real patient-level cluster labels must not be committed.
 
-## Disclaimer
 
-This repository is for research documentation and reproducibility of analysis code only. It is not a clinical decision-support system and must not be used for real-world medical decision-making.
+This repository is intended for research documentation and reproducible analysis only.
