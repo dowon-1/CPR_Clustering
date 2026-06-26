@@ -1,0 +1,54 @@
+# Example configuration for private/local execution.
+# Replace placeholder paths with local private paths before running.
+
+paths:
+  raw_input_path: "<PRIVATE_DATA_DIR>/raw_field_cpr_data.xlsx"
+  feature_input_path: "<PRIVATE_DATA_DIR>/features.csv"
+  output_dir: "<PRIVATE_OUTPUT_DIR>"
+  index_column: "patient_id"
+  target_column: "Survival"
+
+cohort:
+  field_cpr_column: "trmspt31"
+  cpr_refusal_column: "trmspt32"
+  dnr_column: "trmspt33"
+  age_column: "ptmibdrt"
+  emergency_result_column: "ptmiemrt"
+  admission_result_column: "ptmidcrt"
+  admission_date_column: "ptmidcdt"
+  transport_date_column: "trmsindt"
+  minimum_age: 5
+
+features:
+  columns_to_drop:
+    - "trmsstdt"
+    - "trmssttm"
+    - "ptmiintp"
+  dash_to_no_columns:
+    - "trmsbd30"
+    - "trmsbd22"
+    - "trmspt26"
+  additional_drop_columns: []
+  categorical_columns: []
+  missing_category: "missing"
+  one_hot_encode: true
+  drop_single_value_columns: true
+
+split:
+  validation_size: 0.24
+  random_state: 42
+  stratify: true
+
+clustering:
+  n_clusters: 4
+  cluster_range_min: 2
+  cluster_range_max: 10
+  linkage_method: "ward"
+  distance_metric: "gower"
+  representative_method: "medoid"
+
+privacy:
+  redact_result_values: true
+  save_private_outputs: false
+  save_figures: false
+  output_cluster_labels: false

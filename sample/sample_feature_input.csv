@@ -1,0 +1,5 @@
+patient_id,age,sex_male,Survival,initial_rhythm_shockable,witnessed_arrest_yes,bystander_cpr_yes,initial_sbp_normal,initial_spo2_low,initial_gcs_mild,transport_duration_20_39,transport_duration_missing
+SAMPLE_001,67,1,1,1,1,1,0,1,0,1,0
+SAMPLE_002,72,0,0,0,1,0,1,0,1,0,0
+SAMPLE_003,55,1,1,0,0,1,1,0,1,0,1
+SAMPLE_004,81,0,0,1,1,1,0,1,0,0,0

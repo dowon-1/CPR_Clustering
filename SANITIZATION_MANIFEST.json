@@ -1,0 +1,11 @@
+{
+  "clinical_data_included": false,
+  "patient_level_results_included": false,
+  "cluster_result_values_included": false,
+  "notebook_outputs_included": false,
+  "hospital_specific_names_included": false,
+  "local_private_paths_included": false,
+  "korean_comments_replaced_with_english": true,
+  "converted_to_python_modules": true,
+  "public_safe_default": true
+}

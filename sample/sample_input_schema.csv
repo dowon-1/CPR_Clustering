@@ -1,0 +1,4 @@
+patient_id,trmspt31,trmspt32,trmspt33,ptmibdrt,ptmiemrt,ptmidcrt,ptmidcdt,trmsindt
+SAMPLE_001,1,0,0,67,1,0,,2024-01-01
+SAMPLE_002,1,0,0,72,0,1,2024-02-10,2024-02-10
+SAMPLE_003,1,0,0,55,1,0,,2024-03-15
