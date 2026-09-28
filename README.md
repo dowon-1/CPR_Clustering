@@ -1,6 +1,5 @@
 # Field CPR Patient Clustering Pipeline
 
-![Version](https://img.shields.io/badge/version-v1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![clinical data](https://img.shields.io/badge/clinical_data-not_included-lightgrey)
 ![result values](https://img.shields.io/badge/result_values-redacted-lightgrey)
